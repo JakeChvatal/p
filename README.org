@@ -1,0 +1,24 @@
+#+title: P
+
+P is a set of aliases to support a more system-independent package manager.
+It currently includes aliases for apt, apt-get, and pacman.
+
+* Currently Supported Commands
+|Command|Description            |
+|-------|-----------------------|
+|  pi   | Install a package     |
+|  pp   | Purge a package       |
+|  pr   | Remove a package      |
+|  pu   | Update packages       |
+|  pug  | Upgrade packages      |
+|  puu  | Update and upgrade    |
+|  par  | Remove unused packages|
+|  ps   | Search for a package  |
+
+* Installation
+Provide your zsh package manager a path to this repository.
+
+Example for antigen:
+#+begin_src zsh
+antigen bundle 'jakechvatal/p'
+#+end_src
